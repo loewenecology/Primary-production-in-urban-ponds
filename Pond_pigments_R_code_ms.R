@@ -30,7 +30,7 @@ library(ggspatial)
 # Load data in R environment
 ##################
 
-setwd(dirname(rstudioapi::getSourceEditorContext()$path)) #set working directory
+setwd() #set working directory
 
 pigments = read.table("Pond_pigments_2022_ms.csv", header = T, sep = ",") #read in sample pigment data
 sites = read.table("Pond_sites_2022_ms.csv", header = T, sep = ",") #read in pond site data
